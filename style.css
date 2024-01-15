@@ -6,5 +6,110 @@
 }
 body{
     font-family: 'Mulish', sans-serif;
-    background-color: aquamarine;
+    max-width: 1440px;
 }
+.paragraph{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 12px 30px;
+
+}
+.important-text{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* navigation section start here */
+.nav{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-title img{
+    width: 48px;
+    height: 50px;
+}
+.nav-title h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+.menu-bar ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.menu-bar ul li{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* Navigation Section End here */
+
+/* Footer Section Start Here */
+.footer{
+    width:100%;
+    min-height: 480px;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 55%;
+    text-align: center;
+    height: 100%;
+}
+.footer-icons{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icons i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.footer-content p{
+    margin-top: 30px;
+    width:90%;
+    text-align: center;
+}
+.footer-content hr{
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    width: 100%;
+    
+}
+/* Footer Section End Here */
