@@ -120,6 +120,54 @@ body{
 /* Tour Section End Here */
 
 /* Destination Section Start Here */
+.destination{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.destination h2{
+    margin: 20px auto;
+}
+.destination p{
+    padding: 0 80px;
+    margin-bottom: 50px;
+}
+.image-container{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.item-1{
+    grid-column: 1/ span 6;
+}
+.item-2{
+    grid-column: 7/ span6;
+}
+.item-3{
+    grid-column: 1/ span 4;
+}
+.item-4{
+    grid-column: 5/ span 5;
+}
+.item-5{
+    grid-column: 10/ span 3;
+}
+.item-6{
+    grid-column: 1/ span 5;
+}
+.item-7{
+    grid-column: 6/ span 7;
+}
+
+
 /* Destination Section End Here */
 
 /* Footer Section Start Here */
