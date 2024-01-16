@@ -139,6 +139,7 @@ body{
     align-items: center;
     margin: 0 auto;
     padding: 20px;
+
 }
 .banner form input, select{
     border-radius: 8px;
@@ -160,7 +161,7 @@ body{
 /* Tour Section Start Here */
 .tour{
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
 }
 .tour-content{
@@ -194,7 +195,7 @@ body{
 /* Destination Section Start Here */
 .destination{
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: center;
 }
 .destination h2{
@@ -252,6 +253,8 @@ body{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    padding-left:50px;
+    padding-right: 50px;
 }
 .features-boxs{
     width: 100%;
@@ -296,7 +299,7 @@ body{
 /* Sign-in Section Start Here */
 .sign-in{
     width:80%;
-    margin:50px auto;
+    margin:100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,12 +309,12 @@ body{
     height: 100%;
     border: 1px solid #FF5400;
     border-radius: 16px;
-    padding: 55px;
-    margin: 10px;
+    padding: 35px;
 }
 .sign-in-text hr{
     background: rgba(19, 19, 24, 0.10);
     width: 98%;
+    margin-top:20px;
 }
 .sign-in-text form{
     width: 100%;
@@ -326,6 +329,9 @@ body{
     padding-top: 16px;
     padding-bottom: 16px;
     width: 100%;
+    font-family: Mulish;
+    font-size: 16px;
+
 }
 .sign-in-text button{
     width: 100%;
@@ -345,13 +351,16 @@ body{
     background-color: #FF5400;
     color: #FFF;
     text-align: center;
-    padding: 20px 40px;
+    padding: 20px 35px;
     border-radius: 16px;
     position:absolute;
-    bottom: 40px;
+    bottom: 45px;
     right: 10px;
     transform: rotate(-20deg);
 
+}
+.discount h3{
+    color:#FFF;
 }
 
 /* Sign-in Section End Here */
