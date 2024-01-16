@@ -31,6 +31,13 @@ body{
     font-weight: 800;
     line-height: 45px;
 }
+.heading-four{
+    color:#ffffff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
 .btn{
     border-radius: 8px;
     background: #FF5400;
@@ -98,11 +105,11 @@ body{
 .banner{
     width: 80%;
     margin: 50px auto;
-    min-height: 500px;
     text-align: center;
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     border-radius: 16px;
+    padding-bottom: 100px;
 
 }
 .banner-content{
@@ -154,7 +161,6 @@ body{
     padding: 16px;
     
 }
-
 
 /* Banner Section End Here */
 
@@ -220,24 +226,73 @@ body{
 }
 .item-1{
     grid-column: 1/ span 6;
+    position: relative;
+}
+.item-1 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .item-2{
     grid-column: 7/ span6;
+    position: relative;
+}
+.item-2 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .item-3{
     grid-column: 1/ span 4;
+    position: relative;
+}
+.item-3 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .item-4{
     grid-column: 5/ span 5;
+    position: relative;
+}
+.item-4 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .item-5{
     grid-column: 10/ span 3;
+    position: relative;
+}
+.item-5 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .item-6{
     grid-column: 1/ span 5;
+    position: relative;
+}
+.item-6 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .item-7{
     grid-column: 6/ span 7;
+    position: relative;
+}
+.item-7 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -312,8 +367,7 @@ body{
     padding: 35px;
 }
 .sign-in-text hr{
-    background: rgba(19, 19, 24, 0.10);
-    width: 98%;
+    background: rgba(19, 19, 24, 0.05);
     margin-top:20px;
 }
 .sign-in-text form{

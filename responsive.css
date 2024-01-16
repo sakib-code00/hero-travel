@@ -1,0 +1,122 @@
+@media screen and (max-width: 600px) {
+    .nav{
+        flex-direction: column;
+    }
+    .nav-title {
+        margin-bottom: 20px;
+    }
+    .menu-bar ul{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+    /* banner */
+    .banner-content{
+        width:100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+    .banner-text{
+        width: 90%;
+    }
+    .banner-text h1{
+        font-size: 24px;
+    }
+    .banner form{
+        flex-direction: column;
+        width: 90%;
+        padding: 10px;
+    }
+    .banner-text p{
+        margin-bottom: 30px;
+    }
+    .banner form input, select, button{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    /* tour */
+    .tour{
+        flex-direction: column;
+        width: 90%;
+    }
+    .tour-content{
+        width:100%;
+        margin: 0 auto;
+    }
+    .tour-content button{
+        width: 60%;
+    }
+    .tour-image{
+        width:100%;
+    }
+
+    /*destination  */
+    .destination{
+        width: 90%;
+        margin: 100px auto;
+        text-align: center;
+    }
+    .image-container{
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .item-1{
+        grid-column: 1/ span 1;
+        grid-row: 1/ span 1;
+    }
+    .item-2{
+        grid-column: 1/ span 1;
+        grid-row: 2/ span 1;
+    }
+    .item-3{
+        grid-column: 1/ span 1;
+        grid-row: 3/ span 1;
+    }
+    .item-4{
+        grid-column: 1/ span 1;
+        grid-row: 4/ span 1;
+    }
+    .item-5{
+        grid-column: 1/ span 1;
+        grid-row: 5/ span 1;
+    }
+    .item-6{
+        grid-column: 1/ span 1;
+        grid-row: 6/ span 1;
+    }
+    .item-7{
+        grid-column: 1/ span 1;
+        grid-row: 7/ span 1;
+    }
+
+    /* features */
+    .features{
+        width: 90%;
+    }
+    .features-text{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .features-boxs{
+      flex-direction: column;
+    }
+
+    /* sign-in */
+    .sign-in{
+        width:90%;
+        flex-direction: column;
+    }
+    .sign-in-text{
+        width: 100%;
+    }
+    .sign-in-img{
+        width:100%;
+    }
+
+}
