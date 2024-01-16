@@ -23,6 +23,14 @@ body{
     font-weight: 800;
     line-height: 45px;
 }
+.heading-three{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+}
 .btn{
     border-radius: 8px;
     background: #FF5400;
@@ -284,6 +292,69 @@ body{
     padding:20px;
 }
 /* Features Section Start Here */
+
+/* Sign-in Section Start Here */
+.sign-in{
+    width:80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-text{
+    width: 40%;
+    height: 100%;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 55px;
+    margin: 10px;
+}
+.sign-in-text hr{
+    background: rgba(19, 19, 24, 0.10);
+    width: 98%;
+}
+.sign-in-text form{
+    width: 100%;
+}
+.sign-in-text input{
+    display: block;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.sign-in-text button{
+    width: 100%;
+}
+.sign-in-img{
+    width:60%;
+    border-radius: 16px;
+    margin: 10px;
+    position: relative;
+}
+.sign-in-img img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.sign-in-img .discount{
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 16px;
+    position:absolute;
+    bottom: 40px;
+    right: 10px;
+    transform: rotate(-20deg);
+
+}
+
+/* Sign-in Section End Here */
 
 /* Footer Section Start Here */
 .footer{
