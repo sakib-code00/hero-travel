@@ -161,6 +161,14 @@ body{
     padding: 16px;
     
 }
+.banner form input, select, button{
+    box-sizing: border-box;
+    width:100%;
+    margin-left: 10px;
+}
+.banner form  button{
+    font-size: 18px;
+}
 
 /* Banner Section End Here */
 
@@ -195,6 +203,7 @@ body{
 }
 .tour-content button{
     margin:20px auto;
+    width: 40%;
 }
 /* Tour Section End Here */
 
@@ -351,6 +360,45 @@ body{
 }
 /* Features Section Start Here */
 
+/* Place Section Start Here */
+.place{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.place-text{
+    width:50%;
+    margin-right: 20px;
+}
+.place-text h2{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.place-text p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.place-text li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.place-text button{
+    width: 50%;
+    margin-left: 0;
+}
+.place-video{
+    width:50%;
+}
+.place-video video{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+/* Place Section Start Here */
+
 /* Sign-in Section Start Here */
 .sign-in{
     width:80%;
@@ -388,8 +436,9 @@ body{
 
 }
 .sign-in-text button{
-    width: 100%;
+    margin-left: 0;
 }
+
 .sign-in-img{
     width:60%;
     border-radius: 16px;
@@ -411,7 +460,6 @@ body{
     bottom: 45px;
     right: 10px;
     transform: rotate(-20deg);
-
 }
 .discount h3{
     color:#FFF;
